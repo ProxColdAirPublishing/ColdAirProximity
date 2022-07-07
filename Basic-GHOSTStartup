@@ -1,2 +1,27 @@
---Not Published
-print("Startup-Basic")
+local GameIDs = {
+  Criminality = "4588604953",
+  Pistol = "6722284015",
+  MurderMystery = "142823291",
+  Arsenal = "286090429",
+  TowerOfHell = "1962086868",
+  CombatWarrios = "4282985734",
+  NinjaLegends = "3956818381",
+}
+
+if game.PlaceId == GameIDs.Criminality then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Criminality.lua"))()
+elseif game.PlaceId == GameIDs.Pistol then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Pistol1v1.lua"))()
+elseif game.PlaceId == GameIDs.MurderMystery then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/MM2.lua"))()
+elseif game.PlaceId == GameIDs.Arsenal then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Arsenal.lua"))()
+elseif game.PlaceId == GameIDs.TowerOfHell then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/TOH.lua"))()
+elseif game.PlaceId == GameIDs.CombatWarrios then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/CombatWarriors.lua"))()
+elseif game.PlaceId == GameIDs.NinjaLegends then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/NinjaLegends.lua"))()
+else
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Universal.lua"))()
+end
