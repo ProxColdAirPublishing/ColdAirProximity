@@ -14,3 +14,6 @@ Credits/People that helped in one way or another:
 - 0x83
   Provided tutorials for how to set up esp (mainly the box esp).
   https://www.youtube.com/channel/UCyUeMXwBs5alIOI-pGH5dJA
+  
+-	Kinlei
+  Provided notification service https://github.com/Kinlei
