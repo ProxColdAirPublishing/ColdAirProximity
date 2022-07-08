@@ -1,4 +1,12 @@
---Patch 3
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+			Notify({
+				Description = "If you are looking for a product key it can be found on our discord! (Copied To Your Clipboard)";
+				Title = "GHOST-X";
+				Duration = 10;
+			});
+setclipboard("https://discord.gg/xJ44u5dXDK")
+
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
