@@ -1,16 +1,16 @@
-if game.PlaceId == "4588604953" then -- Criminality
+if game.PlaceId == 4588604953 then -- Criminality
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Criminality.lua"))()
-elseif game.PlaceId == "6722284015" then -- Pistol 1v1
+elseif game.PlaceId == 6722284015 then -- Pistol 1v1
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Pistol1v1.lua"))()
-elseif game.PlaceId == "142823291" then --MM2
+elseif game.PlaceId == 142823291 then --MM2
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/MM2.lua"))()
-elseif game.PlaceId == "286090429" then -- Arsenal
+elseif game.PlaceId == 286090429 then -- Arsenal
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Arsenal.lua"))()
-elseif game.PlaceId == "1962086868" then -- TOH
+elseif game.PlaceId == 1962086868 then -- TOH
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/TOH.lua"))()
-elseif game.PlaceId == "4282985734" then -- Combat Warriors
+elseif game.PlaceId == 4282985734 then -- Combat Warriors
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/CombatWarriors.lua"))()
-elseif game.PlaceId == "3956818381" then -- ninja
+elseif game.PlaceId == 3956818381 then -- ninja
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/NinjaLegends.lua"))()
 else -- Universal
  loadstring(game:HttpGet("https://raw.githubusercontent.com/ProxColdAirPublishing/Ghost-X/main/Games/Universal.lua"))()
